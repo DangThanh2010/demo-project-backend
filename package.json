@@ -1,0 +1,32 @@
+{
+  "name": "demo-project-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.13.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.0",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "http-status": "^1.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.2",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.5",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "prisma": "^3.13.0"
+  }
+}
